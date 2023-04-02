@@ -3,7 +3,7 @@
 		"name": "Spaghetti Bolognese",
 		"type": "Omnivore",
 		"picture": "https://www.papillesetpupilles.fr/wp-content/uploads/2013/08/Spaghetti-Bolognese.jpg",
-		"description": "Valeur nutritionnelle (1 portion): 531 kcal, Protéines: 36,6 g, Glucides: 39,5 g, Matières grasses: 17,4 g",
+		"description": "Valeur nutritionnelle (1 portion): 531 kcal, Protéines: 36,6 g, Glucides: 39,5 g, Lipides: 17,4 g",
 		"recipe": [
 			"Hachez l'ail et l'oignon.",
 			"Dans une casserole assez grande, faites chauffer l'huile d'olive à feu doux. Faites revenir l'ail, l'oignon pendant 5 minutes en remuant.",
@@ -24,6 +24,273 @@
 			"1 cube de volaille",
 			"paprika fumé",
 			"sel et poivre"
+		]
+	},
+	{
+		"name": "Spaghetti Carbonara",
+		"type": "Omnivore",
+		"picture": "https://assets.afcdn.com/recipe/20181031/83533_w1024h768c1cx1746cy2327.jpg",
+		"description": "Valeur nutritionnelle (1 portion): 775 kcal, Protéines: 45,2 g, Glucides: 49,2 g, Lipides: 33 g",
+		"recipe": [
+			"Faites cuire les spaghetti selon les instructions sur l'emballage.",
+			"Pendant ce temps, dans une poêle, faites revenir le lard coupé en petits dés jusqu'à ce qu'il soit doré.",
+			"Dans un bol, fouettez les jaunes d'oeufs avec le fromage râpé et le poivre noir moulu.",
+			"Lorsque les pâtes sont cuites, réservez 1/2 tasse de l'eau de cuisson, puis égouttez les pâtes.",
+			"Ajoutez les pâtes chaudes dans la poêle avec le lard et mélangez bien.",
+			"Ajoutez le mélange d'oeufs et de fromage aux pâtes, en remuant rapidement pour enrober les pâtes. Ajoutez un peu d'eau de cuisson réservée pour créer une sauce crémeuse.",
+			"Assaisonnez avec du sel et du poivre noir moulu selon votre goût.",
+			"Servez chaud avec du fromage râpé supplémentaire sur le dessus."
+		],
+		"ingredients": [
+			"100g de spaghetti",
+			"100g de lardons fumés",
+			"2 jaunes d'oeufs",
+			"50g de fromage râpé (parmesan ou pecorino)",
+			"Sel et poivre noir moulu"
+		]
+	},
+	{
+		"name": "Gratin de pâtes au fromage, oignon et lardons",
+		"type": "Omnivore",
+		"picture": "https://assets.afcdn.com/recipe/20131009/11495_w1024h1024c1cx1584cy2157.jpg",
+		"description": "Valeur nutritionnelle (1 portion): 755 kcal, Protéines: 39 g, Glucides: 42,2 g, Lipides: 46 g",
+		"recipe": [
+			"Préchauffez le four à 180°C.",
+			"Faites cuire les pâtes selon les instructions sur l'emballage.",
+			"Pendant ce temps, dans une poêle, faites revenir les lardons coupés en petits dés et l'oignon émincé jusqu'à ce qu'ils soient dorés.",
+			"Égouttez les pâtes et réservez.",
+			"Dans un grand bol, mélangez les pâtes cuites avec les lardons et l'oignon dorés.",
+			"Ajoutez la crème fraîche, le fromage râpé, le sel et le poivre, puis mélangez bien.",
+			"Versez le mélange de pâtes dans un plat allant au four préalablement graissé.",
+			"Enfournez pendant environ 20 à 25 minutes, jusqu'à ce que le dessus soit doré et croustillant.",
+			"Servez chaud avec une salade verte."
+		],
+		"ingredients": [
+			"100g de pâtes",
+			"100g de lardons fumés",
+			"1 oignon émincé",
+			"20/30ml de crème fraîche",
+			"50g de fromage ( comté, époisse, chêvre...)",
+			"Sel et poivre noir moulu"
+		]
+	},
+	{
+		"name": "Tacos au poulet",
+		"type": "Omnivore",
+		"picture": "https://www.mekkafood.com/images/1000x500/mexican-style-crispy-wraps_3.jpg",
+		"description": "Valeur nutritionnelle (1 portion): 517 kcal, Protéines: 42 g, Glucides: 53,2 g, Matières grasses: 14,3 g",
+		"recipe": [
+			"Faites chauffer l'huile d'olive dans une poêle à feu moyen.",
+			"Ajoutez le poulet et faites-le cuire pendant environ 5 minutes de chaque côté, jusqu'à ce qu'il soit doré et cuit à travers.",
+			"Retirez le poulet de la poêle et mettez-le de côté.",
+			"Ajoutez l'oignon et le poivron rouge dans la poêle et faites-les cuire pendant environ 5 minutes, jusqu'à ce qu'ils soient tendres.",
+			"Ajoutez les épices à tacos et mélangez bien.",
+			"Remettez le poulet dans la poêle avec les légumes et ajoutez un peu d'eau si nécessaire pour obtenir une sauce épaisse.",
+			"Laissez mijoter pendant environ 5 minutes pour que les saveurs se mélangent bien.",
+			"Pendant ce temps, faites chauffer les tortillas dans une poêle ou au four.",
+			"Garnissez chaque tortilla avec une généreuse portion du mélange de poulet et de légumes.",
+			"Saupoudrez de fromage râpé, puis pliez les tortillas en deux et servez immédiatement."
+		],
+		"ingredients": [
+			"100g de poulet",
+			"1/3 oignon émincé",
+			"1/3 poivron rouge coupé en lanières",
+			"1 tomate (optionnel)",
+			"Épices à tacos",
+			"2 tortillas",
+			"20g de fromage râpé"
+		]
+	},
+	{
+		"name": "Gratin de patate au fromage, oignon et lardons",
+		"type": "Omnivore",
+		"picture": "https://www.plumeti.fr/wp-content/uploads/2022/09/pommes-de-terre-aux-lardons-au-four-un-accompagnement-savoureux-et-croustillant.jpg",
+		"description": "Valeur nutritionnelle (1 portion): 800 kcal, Protéines: 34 g, Glucides: 51 g, Lipides: 48 g",
+		"recipe": [
+			"Préchauffez le four à 180°C.",
+			"Éplucher et faites cuire les patate.",
+			"Pendant ce temps, dans une poêle, faites revenir les lardons coupés en petits dés et l'oignon émincé jusqu'à ce qu'ils soient dorés.",
+			"Égouttez les pâtes et réservez.",
+			"Dans un grand bol, mélangez les patate cuites avec les lardons et l'oignon dorés.",
+			"Ajoutez la crème fraîche, le fromage râpé, le sel et le poivre, puis mélangez bien.",
+			"Versez le mélange de pâtes dans un plat allant au four préalablement graissé.",
+			"Enfournez pendant environ 20 à 25 minutes, jusqu'à ce que le dessus soit doré et croustillant.",
+			"Servez chaud avec une salade verte."
+		],
+		"ingredients": [
+			"200g de patate",
+			"100g de lardons fumés",
+			"1 oignon émincé",
+			"20/30ml de crème fraîche",
+			"50g de fromage ( comté, époisse, chêvre...)",
+			"Sel et poivre noir moulu"
+		]
+	},
+	{
+		"name": "Poulet au beurre de cacahuète avec riz ou pâtes",
+		"type": "Omnivore",
+		"picture": "https://harmoniecuisine.com/wp-content/uploads/2022/05/Article-65-768x1024.jpg",
+		"description": "Valeur nutritionnelle (1 portion): 650 kcal, Protéines: 41 g, Glucides: 40 g, Matières grasses: 37 g",
+		"recipe": [
+			"Faites cuire le riz ou les pâtes selon les instructions sur l'emballage.",
+			"Chauffer une poêle à feu fort avec l'huile.",
+			"Pendant que la poêle chauffe, couper le poulet en cubes. Le déposer dans la poêle chaude sans le remuer. Le but est de le colorer.",
+			"Pendant que le poulet cuit, émincer l'oignon, hacher l'ail et le gingembre.",
+			"Une fois bien doré, débarrasser le poulet dans une assiette (il n'est pas encore cuit à ce stade là, c'est normal).",
+			"Ajouter l'oignon dans la poêle puis le faire revenir pendant 2 minutes.",
+			"Ajouter l'ail et le gingembre. Les faire revenir pendant 30 secondes.",
+			"Ajouter le concentré de tomates et un peu d'eau pour le diluer. À ce stade là, vous pouvez ajouter un peu de curry si vous le souhaitez.",
+			"Ajouter les cacahuètes, le beurre de cacahuète et le lait de coco. Mélanger bien l'ensemble pour avoir une sauce homogène.",
+			"Verser la sauce soja et le poivre.",
+			"Goûter la sauce et rectifier l'assaisonnement en sel si besoin.",
+			"Ajouter le poulet dans la poêle et l'enrober dans la sauce pour qu'il finisse de cuire. Comptez 2/3 minutes.",
+			"Pour finir, vous pouvez ajouter de la coriandre hachée, le zeste d'un citron vert ainsi que le jus.",
+			"C'est prêt à être dégusté !"
+		],
+		"ingredients": [
+			"100g riz ou de pâtes",
+			"100g de poulet",
+			"1/3 oignon",
+			"1/2 gousses d'ail",
+			"1/4 c.à s. de concentré de tomates",
+			"1 c.à s. de beurre de cacahuète (ou plus en fonction de vos goûts)",
+			"100ml de lait de coco",
+			"1/4 c. à s. d'huile pour la cuisson",
+			"1/4 c. à s. de sauce soja",
+			"Sel et poivre"
+		]
+	},
+	{
+		"name": "Chili con carne, riz",
+		"type": "Omnivore",
+		"picture": "https://goodgirls.be/wp-content/uploads/2020/03/F5CEBF5F-4500-4F4F-84EE-C9B86A45D07A-1440x1800.jpeg",
+		"description": "Valeur nutritionnelle (1 portion): 740 kcal, Protéines: 37 g, Glucides: 80 g, Matières grasses: 36 g",
+		"recipe": [
+			"Faites cuire le riz selon les instructions sur l'emballage.",
+			"Pendant ce temps, dans une grande casserole, faites chauffer l'huile d'olive à feu moyen.",
+			"Ajoutez l'oignon et l'ail hachés et faites revenir pendant 2 à 3 minutes jusqu'à ce qu'ils soient tendres.",
+			"Ajoutez le boeuf haché et faites-le cuire jusqu'à ce qu'il soit bien doré.",
+			"Ajoutez les épices chili en poudre, le cumin, le paprika fumé, le sel et le poivre.",
+			"Mélangez bien pour enrober la viande avec les épices.",
+			"Ajoutez les tomates concassées, les haricots rouges égouttés et rincés, ainsi que le concentré de tomates et un peu d'eau.",
+			"Mélangez bien et portez à ébullition.",
+			"Baissez ensuite le feu et laissez mijoter à feu doux pendant environ 20 minutes, jusqu'à ce que la sauce épaississe.",
+			"Servez le chili con carne chaud avec le riz.",
+			"Garnissez éventuellement de coriandre fraîche et de fromage râpé."
+		],
+		"ingredients": [
+			"60g de riz",
+			"100g de boeuf haché",
+			"1/3 oignon haché",
+			"1/2 gousses d'ail hachées",
+			"100g d'haricots rouges",
+			"1 tomate",
+			"2 c. à s. de concentré de tomates",
+			"1 c. à s. d'huile d'olive",
+			"2 c. à s. d'épices chili en poudre",
+			"1 c. à c. de cumin",
+			"1 c. à c. de paprika fumé",
+			"Sel et poivre"
+		]
+	},
+	{
+		"name": "Pomme de terre sauté, poulet",
+		"type": "Omnivore",
+		"picture": "https://latendresseencuisine.com/wp-content/uploads/2012/09/fricassee-de-poulet-et-pommes-de-terre-a-la-coriandre.jpg",
+		"description": "Valeur nutritionnelle (1 portion): 730 kcal, Protéines: 34 g, Glucides: 46 g, Matières grasses: 44 g",
+		"recipe": [
+			"Dans une poêle, faites chauffer l'huile d'olive à feu moyen-vif. Ajoutez les pommes de terre. Faites-les revenir jusqu'à ce qu'elles soient dorées",
+			"Pendant ce temps, coupez le poulet en cubes et assaisonnez-le de sel, de poivre et d'herbes de Provence.",
+			"Ajoutez le poulet et faites-le cuire jusqu'à ce qu'il soit doré et cuit à travers (environ 5-7 minutes).",
+			"Ajoutez l'oignon émincé dans la poêle avec les pommes de terre et faites-les revenir jusqu'à ce qu'ils soient translucides et légèrement dorés.",
+			"Mettez le poulet dans la poêle avec les pommes de terre et mélangez bien.",
+			"Ajoutez l'ail haché et faites-le cuire jusqu'à ce qu'il soit parfumé.",
+			"Servez chaud, garni de persil frais haché."
+		],
+		"ingredients": [
+			"200g de pommes de terre",
+			"100g de poulet",
+			"1/2 oignon émincé",
+			"1/2 gousses d'ail hachées",
+			"3 cuillères à soupe d'huile d'olive",
+			"1 cuillère à soupe d'herbes de Provence",
+			"Sel et poivre"
+		]
+	},
+	{
+		"name": "Pâtes crémeuses sauce fromage ( époisses, chêvre ...) champignon, poulet",
+		"type": "Omnivore",
+		"picture": "https://www.cuisineculinaire.com/wp-content/uploads/2018/11/Pates-au-poulet-sauce-cremeuse-champignons-parmesan_2_680.jpg",
+		"description": "Valeur nutritionnelle (1 portion): 760 kcal, Protéines: 52 g, Glucides: 32 g, Matières grasses: 33 g",
+		"recipe": [
+			"Faites cuire les pâtes selon les instructions sur l'emballage.",
+			"Pendant ce temps, dans une poêle, faites revenir les champignons coupés en tranches dans un peu d'huile d'olive.",
+			"Ajoutez le poulet coupé en cubes dans la poêle avec les champignons et laissez cuire jusqu'à ce qu'il soit bien doré.",
+			"Ajoutez l'époisses avec la crème fraîche.",
+			"Une fois que les pâtes sont cuites, égouttez-les et ajoutez-les à la poêle avec la sauce époisses.",
+			"Ajoutez le mélange poulet/champignons dans la poêle avec les pâtes et la sauce époisses. Mélangez bien pour que les pâtes soient bien enrobées de sauce.",
+			"Servez chaud."
+		],
+		"ingredients": [
+			"100g de pâtes",
+			"100g de poulet coupé en cubes",
+			"50g de fromage (époisse, chêvre ...)",
+			"100g de champignons de Paris",
+			"50ml de crème fraîche",
+			"1 cuillère à soupe d'huile d'olive",
+			"Sel et poivre"
+		]
+	},
+	{
+		"name": "Risotto de Crozets au Reblochon",
+		"type": "Omnivore",
+		"picture": "https://www.cuisinedepatou.fr/wp-content/uploads/2018/01/Rizoto-de-crozets-600.jpg",
+		"description": "Valeur nutritionnelle (1 portion): 950 kcal, Protéines: 39 g, Glucides: 82 g, Matières grasses: 44 g",
+		"recipe": [
+			"Préparez le bouillon : faites bouillir l'eau avec le cube et gardez chaud.",
+			"Pendant ce temps, faites revenir les allumettes de lardons dans une poêle, à sec ou avec un peu d'huile d'olive. Réservez.",
+			"Dans une autre poêle, griller les noix, à sec, pendant 2 ou 3 minutes, sans les brûler. Concassez-les au mortier.",
+			"Faites chauffer l'huile d'olive dans une casserole et versez-y les Crozets, mélangez pour bien les enrober et versez le vin. Quand le vin est absorbé, ajoutez 1 louche de bouillon, et continuez comme ça en ajoutant du bouillon chaque fois qu'il est absorbé. Cela va prendre +/- 20 minutes, jusqu'à ce que les pâtes soient cuites.",
+			"S'il reste du bouillon en trop, ce n'est pas grave.",
+			"Ajoutez la crème liquide, une partie des lardons, le paprika fumé et poivrez, mélangez bien.",
+			"Dressez le risotto sur les assiettes à l'aide d'un cercle, ajoutez le Reblochon tranché sur le dessus et passez sous le grill jusqu'à ce que le fromage soit fondu.",
+			"Servir immédiatement (en retirant le cercle) avec le reste des lardons et les noix concassées."
+		],
+		"ingredients": [
+			"100g de Crozets au sarrazin",
+			"50g d'allumettes de lardon",
+			"3 c. à s. de crème liquide",
+			"1 c. à c. de paprika",
+			"Poivre",
+			"1 verre de vin blanc sec",
+			"500ml de bouillon (eau + cube volaille)",
+			"1/5 Reblochon"
+		]
+	},
+	{
+		"name": "Risotto au chorizo et à la tomate",
+		"type": "Omnivore",
+		"picture": "https://odelices.ouest-france.fr/images/recettes/risotto_au_chorizo_et_a_la_tomate.jpg.webp",
+		"description": "Valeur nutritionnelle (1 portion): 900 kcal, Protéines: 30 g, Glucides: 72 g, Matières grasses: 54 g",
+		"recipe": [
+			"Pelez l’oignon et émincez le finement. Faites-le dorer avec d’huile d’olive dans une sauteuse à bords hauts, ou une casserole à fond épais.",
+			"Ajoutez le riz et remuez quelques minutes à feu vif jusqu’à ce qu’il devienne nacré.",
+			"Ajoutez le vin blanc. Remuez et laissez le riz l’absorber.",
+			"Versez un peu de bouillon, laissez frémir en remuant jusqu’à ce qu’il soit absorbé.",
+			"Durant les 20 min de cuisson du riz, rajoutez un peu de bouillon chaque fois qu’il est absorbé en remuant délicatement de temps à autre.",
+			"Ajoutez les tomates coupées en dés, le chorizo et les olives en rondelles. Laissez cuire encore 2 ou 3 mn.",
+			"Servez le risotto au chorizo et à la tomate bien chaud, laissez à disposition des convives un peu de parmesan râpé."
+		],
+		"ingredients": [
+			"100g de riz arborio",
+			"50g de chorizo en tranches",
+			"30cl de bouillon de volaille",
+			"5 olives vertes",
+			"5cl de vin blanc",
+			"1/2 tomates",
+			"1/2 oignon",
+			"Huile d'olive",
+			"Sel et poivre"
 		]
 	}
 ]

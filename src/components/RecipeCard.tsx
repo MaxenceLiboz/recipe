@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import { Card, CardActionArea, CardMedia, CardContent, Typography, Grid } from '@mui/material';
+import { Card, CardActionArea, CardMedia, CardContent, Typography, Grid, useMediaQuery, useTheme } from '@mui/material';
 
 const RecipeCard = (props: any) => {
 	const { recipe, onCardClick } = props;
+	const theme = useTheme();
+	const smScreen = useMediaQuery(theme.breakpoints.down('sm'));
 	const handleClick = () => {
 		onCardClick(recipe);
 	};
@@ -11,7 +13,12 @@ const RecipeCard = (props: any) => {
 		<Card onClick={handleClick}>
 			<CardActionArea>
 				<Grid container alignItems={'center'} direction={'column'}>
-					<CardMedia component="img" image={recipe?.picture} alt={recipe?.name} />
+					<CardMedia
+						component="img"
+						image={recipe?.picture}
+						alt={recipe?.name}
+						style={{ height: smScreen ? '250px' : '250px' }}
+					/>
 					<CardContent>
 						<Typography
 							gutterBottom

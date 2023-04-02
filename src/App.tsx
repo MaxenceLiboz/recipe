@@ -1,25 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { CssBaseline, Grid } from "@mui/material";
+import { ThemeProvider } from "@mui/material/styles";
+import React, { useState } from "react";
+import { useRoutes } from "react-router-dom";
+import { VertNavbar } from "./components/VertNavbar";
+import Home from "./pages/Home";
+import { darkTheme } from "./theme";
 
 function App() {
+  const [isOpen, setIsOpen] = useState(window.innerWidth >= 960);
+
+  const routes = useRoutes([{ path: "/", element: <Home /> }]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={darkTheme}>
+      <CssBaseline />
+      <Grid container style={{ height: "100vh" }}>
+        <Grid item style={{ width: isOpen ? "250px" : "0px" }}>
+          <VertNavbar vertNavbar={true} isOpen={isOpen} setIsOpen={setIsOpen}/>
+        </Grid>
+        <Grid item xs mt={8}>
+          {routes}
+        </Grid>
+      </Grid>
+    </ThemeProvider>
   );
 }
 

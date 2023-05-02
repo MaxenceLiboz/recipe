@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/*" element={<App />} />
+      <Route path="/recipe/*" element={<App />} />
     </Routes>
   </BrowserRouter>
 );

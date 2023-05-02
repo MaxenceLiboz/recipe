@@ -1,0 +1,28 @@
+[
+	{
+		"name": "Spaghetti Bolognese",
+		"type": "Omnivore",
+		"picture": "https://www.papillesetpupilles.fr/wp-content/uploads/2013/08/Spaghetti-Bolognese.jpg",
+		"description": "Valeur nutritionnelle (1 portion): 531 kcal, Protéines: 36,6 g, Glucides: 39,5 g, Lipides: 17,4 g",
+		"recipe": [
+			"Hachez l'ail et l'oignon.",
+			"Dans une casserole assez grande, faites chauffer l'huile d'olive à feu doux. Faites revenir l'ail, l'oignon pendant 5 minutes en remuant.",
+			"Augmentez la flamme, puis ajoutez le boeuf haché. Faites-le brunir et remuez de façon à ce que la viande ne fasse pas de gros paquets.",
+			"Ajoutez le concentrer de tomates, le bouillon de boeuf. Portez à ébullition.",
+			"Baissez ensuite le feu et laissez mijoter.",
+			"Pendant ce temps, faites cuire les spaghetti selon les instructions sur l'emballage.",
+			"Une fois la sauce bolognaise cuite, assaisonnez-la avec du sel et du poivre noir moulu selon votre goût."
+		],
+		"ingredientss": {
+			"spaghetti": 100,
+			"viande haché": 100,
+			"oignon": 0.5,
+			"ail": 1,
+			"concentré de tomates": 80,
+			"eau": 200,
+			"cube de volaille": 1,
+			"paprika fumé": 2,
+			"sel et poivre": 2
+		}
+	}
+]

@@ -1,0 +1,26 @@
+[
+	{ "name": "pâtes", "calories": 359, "glucide": 71, "gras": 2, "proteine": 13 },
+	{ "name": "spaghetti", "calories": 359, "glucide": 71, "gras": 2, "proteine": 13 },
+	{ "name": "riz", "calories": 352, "glucide": 76, "gras": 0.7, "proteine": 9.7 },
+	{ "name": "patate", "calories": 80, "glucide": 17, "gras": 0.3, "proteine": 1.8 },
+
+	{ "name": "blanc de poulet", "calories": 112, "glucide": 0.1, "gras": 1, "proteine": 24 },
+	{ "name": "viande hachée", "calories": 241, "glucide": 0, "gras": 15, "proteine": 24 },
+	{ "name": "lardon fumé", "calories": 239, "glucide": 0.5, "gras": 19, "proteine": 17 },
+	{ "name": "oeuf", "calories": 76, "glucide": 0.3, "gras": 5, "proteine": 6 },
+
+	{ "name": "oignon", "calories": 40, "glucide": 9, "gras": 0.1, "proteine": 1.1 },
+	{ "name": "ail", "calories": 10, "glucide": 2.3, "gras": 0, "proteine": 0.4 },
+
+	{ "name": "concentré de tomates", "calories": 82, "glucide": 19, "gras": 0.5, "proteine": 4.3 },
+	{ "name": "crème fraiche", "calories": 169, "glucide": 6, "gras": 16, "proteine": 2.5 },
+
+	{ "name": "comté", "calories": 410, "glucide": 0.5, "gras": 34, "proteine": 26 },
+	{ "name": "parmesan", "calories": 402, "glucide": 0, "gras": 30, "proteine": 33 },
+	{ "name": "époisse", "calories": 290, "glucide": 0.5, "gras": 24, "proteine": 17 },
+	{ "name": "chèvre", "calories": 291, "glucide": 1, "gras": 23, "proteine": 20 },
+
+	{ "name": "tortillas", "calories": 299, "glucide": 53, "gras": 5, "proteine": 9 },
+
+	{ "name": "poivron rouge", "calories": 23, "glucide": 5, "gras": 0.3, "proteine": 1.1 }
+]

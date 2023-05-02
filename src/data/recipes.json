@@ -8,7 +8,7 @@
 			"Hachez l'ail et l'oignon.",
 			"Dans une casserole assez grande, faites chauffer l'huile d'olive à feu doux. Faites revenir l'ail, l'oignon pendant 5 minutes en remuant.",
 			"Augmentez la flamme, puis ajoutez le boeuf haché. Faites-le brunir et remuez de façon à ce que la viande ne fasse pas de gros paquets.",
-			"Ajoutez le concentrer de tomates, le bouillon de boeuf, le vin rouge. Portez à ébullition.",
+			"Ajoutez le concentrer de tomates, le bouillon de boeuf. Portez à ébullition.",
 			"Baissez ensuite le feu et laissez mijoter.",
 			"Pendant ce temps, faites cuire les spaghetti selon les instructions sur l'emballage.",
 			"Une fois la sauce bolognaise cuite, assaisonnez-la avec du sel et du poivre noir moulu selon votre goût."
@@ -16,7 +16,6 @@
 		"ingredients": [
 			"100g spaghetti",
 			"100g viande haché",
-			"100ml de vin rouge (optionnel)",
 			"1/2 oignon",
 			"1 gousse d'ail",
 			"50/100g Concentrer de tomate",
@@ -53,7 +52,7 @@
 		"name": "Gratin de pâtes au fromage, oignon et lardons",
 		"type": "Omnivore",
 		"picture": "https://assets.afcdn.com/recipe/20131009/11495_w1024h1024c1cx1584cy2157.jpg",
-		"description": "Valeur nutritionnelle (1 portion): 755 kcal, Protéines: 39 g, Glucides: 42,2 g, Lipides: 46 g",
+		"description": "Valeur nutritionnelle (1 portion): 850 kcal, Protéines: 40 g, Glucides: 70 g, Lipides: 53 g",
 		"recipe": [
 			"Préchauffez le four à 180°C.",
 			"Faites cuire les pâtes selon les instructions sur l'emballage.",
@@ -105,7 +104,7 @@
 		"name": "Gratin de patate au fromage, oignon et lardons",
 		"type": "Omnivore",
 		"picture": "https://www.plumeti.fr/wp-content/uploads/2022/09/pommes-de-terre-aux-lardons-au-four-un-accompagnement-savoureux-et-croustillant.jpg",
-		"description": "Valeur nutritionnelle (1 portion): 800 kcal, Protéines: 34 g, Glucides: 51 g, Lipides: 48 g",
+		"description": "Valeur nutritionnelle (1 portion): 725 kcal, Protéines: 34 g, Glucides: 36 g, Lipides: 50 g",
 		"recipe": [
 			"Préchauffez le four à 180°C.",
 			"Éplucher et faites cuire les patate.",
@@ -155,8 +154,8 @@
 			"1/4 c.à s. de concentré de tomates",
 			"1 c.à s. de beurre de cacahuète (ou plus en fonction de vos goûts)",
 			"100ml de lait de coco",
-			"1/4 c. à s. d'huile pour la cuisson",
-			"1/4 c. à s. de sauce soja",
+			"1/4 c. à soupe d'huile pour la cuisson",
+			"1/4 c. à soupe de sauce soja",
 			"Sel et poivre"
 		]
 	},
@@ -164,7 +163,7 @@
 		"name": "Chili con carne, riz",
 		"type": "Omnivore",
 		"picture": "https://goodgirls.be/wp-content/uploads/2020/03/F5CEBF5F-4500-4F4F-84EE-C9B86A45D07A-1440x1800.jpeg",
-		"description": "Valeur nutritionnelle (1 portion): 740 kcal, Protéines: 37 g, Glucides: 80 g, Matières grasses: 36 g",
+		"description": "Valeur nutritionnelle (1 portion): 645 kcal, Protéines: 35 g, Glucides: 65 g, Matières grasses: 26 g",
 		"recipe": [
 			"Faites cuire le riz selon les instructions sur l'emballage.",
 			"Pendant ce temps, dans une grande casserole, faites chauffer l'huile d'olive à feu moyen.",
@@ -185,11 +184,11 @@
 			"1/2 gousses d'ail hachées",
 			"100g d'haricots rouges",
 			"1 tomate",
-			"2 c. à s. de concentré de tomates",
-			"1 c. à s. d'huile d'olive",
-			"2 c. à s. d'épices chili en poudre",
-			"1 c. à c. de cumin",
-			"1 c. à c. de paprika fumé",
+			"2 c. à soupe de concentré de tomates",
+			"1 c. à soupe d'huile d'olive",
+			"2 c. à soupe d'épices chili en poudre",
+			"1 c. à café de cumin",
+			"1 c. à café de paprika fumé",
 			"Sel et poivre"
 		]
 	},
@@ -197,7 +196,7 @@
 		"name": "Pomme de terre sauté, poulet",
 		"type": "Omnivore",
 		"picture": "https://latendresseencuisine.com/wp-content/uploads/2012/09/fricassee-de-poulet-et-pommes-de-terre-a-la-coriandre.jpg",
-		"description": "Valeur nutritionnelle (1 portion): 730 kcal, Protéines: 34 g, Glucides: 46 g, Matières grasses: 44 g",
+		"description": "Valeur nutritionnelle (1 portion): 574 kcal, Protéines: 39 g, Glucides: 33 g, Matières grasses: 30 g",
 		"recipe": [
 			"Dans une poêle, faites chauffer l'huile d'olive à feu moyen-vif. Ajoutez les pommes de terre. Faites-les revenir jusqu'à ce qu'elles soient dorées",
 			"Pendant ce temps, coupez le poulet en cubes et assaisonnez-le de sel, de poivre et d'herbes de Provence.",
@@ -221,7 +220,7 @@
 		"name": "Pâtes crémeuses sauce fromage ( époisses, chêvre ...) champignon, poulet",
 		"type": "Omnivore",
 		"picture": "https://www.cuisineculinaire.com/wp-content/uploads/2018/11/Pates-au-poulet-sauce-cremeuse-champignons-parmesan_2_680.jpg",
-		"description": "Valeur nutritionnelle (1 portion): 760 kcal, Protéines: 52 g, Glucides: 32 g, Matières grasses: 33 g",
+		"description": "Valeur nutritionnelle (1 portion): 860 kcal, Protéines: 59 g, Glucides: 74 g, Matières grasses: 37 g",
 		"recipe": [
 			"Faites cuire les pâtes selon les instructions sur l'emballage.",
 			"Pendant ce temps, dans une poêle, faites revenir les champignons coupés en tranches dans un peu d'huile d'olive.",
@@ -236,8 +235,8 @@
 			"100g de poulet coupé en cubes",
 			"50g de fromage (époisse, chêvre ...)",
 			"100g de champignons de Paris",
-			"50ml de crème fraîche",
-			"1 cuillère à soupe d'huile d'olive",
+			"2 c. à soupe de crème fraîche",
+			"1 c. à soupe d'huile d'olive",
 			"Sel et poivre"
 		]
 	},
@@ -245,7 +244,7 @@
 		"name": "Risotto de Crozets au Reblochon",
 		"type": "Omnivore",
 		"picture": "https://www.cuisinedepatou.fr/wp-content/uploads/2018/01/Rizoto-de-crozets-600.jpg",
-		"description": "Valeur nutritionnelle (1 portion): 950 kcal, Protéines: 39 g, Glucides: 82 g, Matières grasses: 44 g",
+		"description": "Valeur nutritionnelle (1 portion): 729 kcal, Protéines: 32 g, Glucides: 73 g, Matières grasses: 27 g",
 		"recipe": [
 			"Préparez le bouillon : faites bouillir l'eau avec le cube et gardez chaud.",
 			"Pendant ce temps, faites revenir les allumettes de lardons dans une poêle, à sec ou avec un peu d'huile d'olive. Réservez.",
@@ -259,19 +258,18 @@
 		"ingredients": [
 			"100g de Crozets au sarrazin",
 			"50g d'allumettes de lardon",
-			"3 c. à s. de crème liquide",
-			"1 c. à c. de paprika",
+			"1 c. à café de paprika",
 			"Poivre",
 			"1 verre de vin blanc sec",
-			"500ml de bouillon (eau + cube volaille)",
-			"1/5 Reblochon"
+			"200ml de bouillon (eau + cube volaille)",
+			"100g Reblochon"
 		]
 	},
 	{
 		"name": "Risotto au chorizo et à la tomate",
 		"type": "Omnivore",
 		"picture": "https://odelices.ouest-france.fr/images/recettes/risotto_au_chorizo_et_a_la_tomate.jpg.webp",
-		"description": "Valeur nutritionnelle (1 portion): 900 kcal, Protéines: 30 g, Glucides: 72 g, Matières grasses: 54 g",
+		"description": "Valeur nutritionnelle (1 portion): 746 kcal, Protéines: 27 g, Glucides: 62 g, Matières grasses: 40 g",
 		"recipe": [
 			"Pelez l’oignon et émincez le finement. Faites-le dorer avec d’huile d’olive dans une sauteuse à bords hauts, ou une casserole à fond épais.",
 			"Ajoutez le riz et remuez quelques minutes à feu vif jusqu’à ce qu’il devienne nacré.",
@@ -283,7 +281,7 @@
 		],
 		"ingredients": [
 			"100g de riz arborio",
-			"50g de chorizo en tranches",
+			"100g de chorizo en tranches",
 			"30cl de bouillon de volaille",
 			"5 olives vertes",
 			"5cl de vin blanc",

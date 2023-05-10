@@ -1,5 +1,5 @@
 import react, { useEffect, useState } from 'react';
-import { Card, CardContent, Grid, Typography } from '@mui/material';
+import { Alert, Card, CardContent, Grid, Typography } from '@mui/material';
 import RecipeModal from '../components/RecipeModal';
 import RecipeCard from '../components/RecipeCard';
 import recipes from '../data/validatedRecipe.json';
@@ -48,6 +48,7 @@ export default function Home() {
 				recipe.ingredients.map((ingredient: { name: string; value: number }) => {
 					const value = nutritionalValues[ingredient.name];
 					if (!value) {
+						// console.log('Nutritional value for ' + ingredient.name + ' not found');
 						return;
 					}
 					nutritionalValue.calories += value['calories'] ? (value['calories'] * ingredient.value) / 100 : 0;

@@ -3,7 +3,6 @@ import { List, Typography } from '@mui/material';
 
 const RecipeList = (props: any) => {
 	const { recipeList } = props;
-	console.log(recipeList);
 	return (
 		<List>
 			<Typography variant="body2" color="text.primary" style={{ padding: '.5em 0' }} component="div">

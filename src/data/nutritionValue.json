@@ -20,5 +20,7 @@
 	"champignon": { "calories": 2, "carbs": 3.3, "fat": 0.3, "proteins": 3.1 },
 	"PST": { "calories": 330, "carbs": 15, "fat": 2, "proteins": 50 },
 	"sucre": { "calories": 400, "carbs": 100, "fat": 0, "proteins": 0 },
-	"tomate": { "calories": 15, "carbs": 3.89, "fat": 0.20, "proteins": 0.88 }
+	"tomate": { "calories": 15, "carbs": 3.89, "fat": 0.2, "proteins": 0.88 },
+	"huile d'olive": { "calories": 132, "carbs": 0, "fat": 100, "proteins": 0 },
+	"formage blanc 0%" : { "calories": 48, "carbs": 3.5, "fat": 0, "proteins": 7.5 }
 }

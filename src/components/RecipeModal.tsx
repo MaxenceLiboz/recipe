@@ -12,14 +12,12 @@ const RecipeModal = (props: { recipe: IRecipe | null; onClose: any; nutritionalV
 	const { recipe, onClose, nutritionalValue } = props;
 
 	const [show, setShow] = useState(false);
-	console.log('MEAL: ', recipe);
 
 	useEffect(() => {
 		if (recipe && nutritionalValue) setShow(true);
 		else setShow(false);
 	}, [recipe, nutritionalValue]);
 
-	console.log(show);
 	if (!show) return <></>;
 	return (
 		<Modal open={recipe !== null} onClose={onClose}>

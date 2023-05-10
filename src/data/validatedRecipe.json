@@ -21,6 +21,7 @@
 			{ "name": "concentré de tomates", "value": 80, "metric": "g" },
 			{ "name": "eau", "value": 200, "metric": "g" },
 			{ "name": "cube de volaille", "value": 1, "metric": "cube" },
+			{ "name": "huile d'olive", "value": 1, "metric": "c. à s." },
 			{ "name": "paprika fumé", "value": 2, "metric": "c. à c." },
 			{ "name": "sel et poivre", "value": 0, "metric": "" }
 		]
@@ -41,7 +42,7 @@
 		],
 		"ingredients": [
 			{ "name": "spaghetti", "value": 100, "metric": "g" },
-			{ "name": "viande hachée", "value": 100, "metric": "g" },
+			{ "name": "PST", "value": 30, "metric": "g" },
 			{ "name": "oignon", "value": 0.5, "metric": " " },
 			{ "name": "carotte", "value": 2, "metric": " " },
 			{ "name": "tomate", "value": 150, "metric": "g" },
@@ -50,6 +51,7 @@
 			{ "name": "eau", "value": 200, "metric": "g" },
 			{ "name": "cube de volaille", "value": 1, "metric": "cube" },
 			{ "name": "sucre", "value": 5, "metric": "g" },
+			{ "name": "huile d'olive", "value": 1, "metric": "c. à s." },
 			{ "name": "sel et poivre", "value": 0, "metric": "" }
 		]
 	},
@@ -96,6 +98,7 @@
 			{ "name": "champignon", "value": 50, "metric": "g" },
 			{ "name": "oignon", "value": 1, "metric": " " },
 			{ "name": "chèvre", "value": 50, "metric": "g" },
+			{ "name": "formage blanc 0%", "value": 100, "metric": "g" },
 			{ "name": "sel et poivre", "value": 1, "metric": "" }
 		]
 	}

@@ -50,18 +50,14 @@ export default function Home() {
 					if (!value) {
 						return;
 					}
-					nutritionalValue.calories += value['calories']
-						? parseFloat(((value['calories'] * ingredient.value) / 100).toFixed(1))
-						: 0;
-					nutritionalValue.carbs += value['carbs']
-						? parseFloat(((value['carbs'] * ingredient.value) / 100).toFixed(1))
-						: 0;
-					nutritionalValue.fat += value['fat']
-						? parseFloat(((value['fat'] * ingredient.value) / 100).toFixed(1))
-						: 0;
-					nutritionalValue.proteins += value['proteins']
-						? parseFloat(((value['proteins'] * ingredient.value) / 100).toFixed(1))
-						: 0;
+					nutritionalValue.calories += value['calories'] ? (value['calories'] * ingredient.value) / 100 : 0;
+					nutritionalValue.carbs += value['carbs'] ? (value['carbs'] * ingredient.value) / 100 : 0;
+					nutritionalValue.fat += value['fat'] ? (value['fat'] * ingredient.value) / 100 : 0;
+					nutritionalValue.proteins += value['proteins'] ? (value['proteins'] * ingredient.value) / 100 : 0;
+					nutritionalValue.calories = Number(nutritionalValue.calories.toFixed(1));
+					nutritionalValue.carbs = Number(nutritionalValue.carbs.toFixed(1));
+					nutritionalValue.fat = Number(nutritionalValue.fat.toFixed(1));
+					nutritionalValue.proteins = Number(nutritionalValue.proteins.toFixed(1));
 				});
 				return (
 					<Grid key={key} item container xs={10} sm={4} md={3}>

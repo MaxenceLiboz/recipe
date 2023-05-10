@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Spaghetti Bolognese",
+		"name": "Spaghetti Bolognaise",
 		"type": "Omnivore",
 		"picture": "https://www.papillesetpupilles.fr/wp-content/uploads/2013/08/Spaghetti-Bolognese.jpg",
 		"description": "Valeur nutritionnelle (1 portion): 531 kcal, Protéines: 36,6 g, Glucides: 39,5 g, Lipides: 17,4 g",
@@ -26,6 +26,35 @@
 		]
 	},
 	{
+		"name": "Spaghetti Bolognaise vegetarienne",
+		"type": "vegetarien",
+		"picture": "https://i0.wp.com/freethepickle.fr/wp-content/uploads/2020/02/bolo-pst-1-of-1-scaled.jpg?resize=2048%2C1638&ssl=1",
+		"description": "Valeur nutritionnelle (1 portion): 531 kcal, Protéines: 36,6 g, Glucides: 39,5 g, Lipides: 17,4 g",
+		"recipe": [
+			"Si vos PST sont assez grosse, faites les tremper dans de l'eau chaude pendant 10 minutes. Si elles sont petites, vous pouvez les utiliser directement.",
+			"Hachez l'ail, l'oignon et les carottes.",
+			"Dans une casserole assez grande, faites chauffer l'huile d'olive à feu doux. Faites revenir l'ail, l'oignon et la carotte pendant 5 minutes en remuant.",
+			"Ajoutez la tomate, le concentrer de tomates, l'eau et le sucre.",
+			"Ajoutez ensuite les PST et laissez mijoter.",
+			"Pendant ce temps, faites cuire les spaghetti selon les instructions sur l'emballage.",
+			"Une fois la sauce bolognaise cuite, assaisonnez-la avec du sel et du poivre noir moulu selon votre goût."
+		],
+		"ingredients": [
+			{ "name": "spaghetti", "value": 100, "metric": "g" },
+			{ "name": "viande hachée", "value": 100, "metric": "g" },
+			{ "name": "oignon", "value": 0.5, "metric": " " },
+			{ "name": "carotte", "value": 2, "metric": " " },
+			{ "name": "tomate", "value": 150, "metric": "g" },
+			{ "name": "ail", "value": 1, "metric": "gousse" },
+			{ "name": "concentré de tomates", "value": 80, "metric": "g" },
+			{ "name": "eau", "value": 200, "metric": "g" },
+			{ "name": "cube de volaille", "value": 1, "metric": "cube" },
+			{ "name": "sucre", "value": 5, "metric": "g" },
+			{ "name": "sel et poivre", "value": 0, "metric": "" }
+		]
+	},
+
+	{
 		"name": "Spaghetti Carbonara",
 		"type": "Omnivore",
 		"picture": "https://assets.afcdn.com/recipe/20181031/83533_w1024h768c1cx1746cy2327.jpg",
@@ -45,6 +74,28 @@
 			{ "name": "lardon fumé", "value": 100, "metric": "g" },
 			{ "name": "oeuf", "value": 2, "metric": " " },
 			{ "name": "comté", "value": 50, "metric": "g" },
+			{ "name": "sel et poivre", "value": 1, "metric": "" }
+		]
+	},
+	{
+		"name": "Gratin de patate au fromage, lardons, champignon et oignon",
+		"type": "Omnivore",
+		"picture": "https://www.plumeti.fr/wp-content/uploads/2022/09/pommes-de-terre-aux-lardons-au-four-un-accompagnement-savoureux-et-croustillant.jpg",
+		"description": "Valeur nutritionnelle (1 portion): 775 kcal, Protéines: 45,2 g, Glucides: 49,2 g, Lipides: 33 g",
+		"recipe": [
+			"Pour cette recette vous pouvez utiliser le formage et les champignons de votre choix, ici nous utilisons le chèvre et les champignons de paris.",
+			"Éplucher et faites cuire les patate dans une casserole.",
+			"Ajouter les lardons coupés en petits dés, l'oignon émincé et les champignons.",
+			"Ajoutez le sel et le poivre, puis mélangez bien.",
+			"En fin de cuisson ajoutez la crème fraîche et le fromage râpé.",
+			"Servez chaud avec une salade verte."
+		],
+		"ingredients": [
+			{ "name": "patate", "value": 300, "metric": "g" },
+			{ "name": "lardon fumé", "value": 100, "metric": "g" },
+			{ "name": "champignon", "value": 50, "metric": "g" },
+			{ "name": "oignon", "value": 1, "metric": " " },
+			{ "name": "chèvre", "value": 50, "metric": "g" },
 			{ "name": "sel et poivre", "value": 1, "metric": "" }
 		]
 	}

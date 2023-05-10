@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Card, CardActionArea, CardMedia, CardContent, Typography, Grid, useMediaQuery, useTheme } from '@mui/material';
+import { INutrionalValue, IRecipe } from '../pages/Home';
 
-const RecipeCard = (props: any) => {
-	const { recipe, onCardClick } = props;
+const RecipeCard = (props: { recipe: IRecipe; onCardClick: any; nutritionalValue: INutrionalValue }) => {
+	const { recipe, onCardClick, nutritionalValue } = props;
 	const theme = useTheme();
 	const smScreen = useMediaQuery(theme.breakpoints.down('sm'));
 	const handleClick = () => {
-		onCardClick(recipe);
+		onCardClick(recipe, nutritionalValue);
 	};
 
 	return (
@@ -33,7 +34,9 @@ const RecipeCard = (props: any) => {
 							<b>Type:</b> {recipe?.type}
 						</Typography>
 						<Typography variant="body2" color="text.primary" style={{ padding: '.5em 0' }} component="div">
-							<b>Description:</b> {recipe?.description}
+							<b>Description:</b> La valeur nutritive pour 1 portion est: {nutritionalValue.calories}{' '}
+							kcal, {nutritionalValue.proteins}g protéines, {nutritionalValue.carbs}g glucides,{' '}
+							{nutritionalValue.fat}g gras.
 						</Typography>
 					</CardContent>
 				</Grid>

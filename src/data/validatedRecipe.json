@@ -13,16 +13,39 @@
 			"Pendant ce temps, faites cuire les spaghetti selon les instructions sur l'emballage.",
 			"Une fois la sauce bolognaise cuite, assaisonnez-la avec du sel et du poivre noir moulu selon votre goût."
 		],
-		"ingredientss": {
-			"spaghetti": 100,
-			"viande haché": 100,
-			"oignon": 0.5,
-			"ail": 1,
-			"concentré de tomates": 80,
-			"eau": 200,
-			"cube de volaille": 1,
-			"paprika fumé": 2,
-			"sel et poivre": 2
-		}
+		"ingredients": [
+			{ "name": "spaghetti", "value": 100, "metric": "g" },
+			{ "name": "viande hachée", "value": 100, "metric": "g" },
+			{ "name": "oignon", "value": 0.5, "metric": " " },
+			{ "name": "ail", "value": 1, "metric": "gousse" },
+			{ "name": "concentré de tomates", "value": 80, "metric": "g" },
+			{ "name": "eau", "value": 200, "metric": "g" },
+			{ "name": "cube de volaille", "value": 1, "metric": "cube" },
+			{ "name": "paprika fumé", "value": 2, "metric": "c. à c." },
+			{ "name": "sel et poivre", "value": 0, "metric": "" }
+		]
+	},
+	{
+		"name": "Spaghetti Carbonara",
+		"type": "Omnivore",
+		"picture": "https://assets.afcdn.com/recipe/20181031/83533_w1024h768c1cx1746cy2327.jpg",
+		"description": "Valeur nutritionnelle (1 portion): 775 kcal, Protéines: 45,2 g, Glucides: 49,2 g, Lipides: 33 g",
+		"recipe": [
+			"Faites cuire les spaghetti selon les instructions sur l'emballage.",
+			"Pendant ce temps, dans une poêle, faites revenir le lard coupé en petits dés jusqu'à ce qu'il soit doré.",
+			"Dans un bol, fouettez les jaunes d'oeufs avec le fromage râpé et le poivre noir moulu.",
+			"Lorsque les pâtes sont cuites, réservez 1/2 tasse de l'eau de cuisson, puis égouttez les pâtes.",
+			"Ajoutez les pâtes chaudes dans la poêle avec le lard et mélangez bien.",
+			"Ajoutez le mélange d'oeufs et de fromage aux pâtes, en remuant rapidement pour enrober les pâtes. Ajoutez un peu d'eau de cuisson réservée pour créer une sauce crémeuse.",
+			"Assaisonnez avec du sel et du poivre noir moulu selon votre goût.",
+			"Servez chaud avec du fromage râpé supplémentaire sur le dessus."
+		],
+		"ingredients": [
+			{ "name": "spaghetti", "value": 100, "metric": "g" },
+			{ "name": "lardon fumé", "value": 100, "metric": "g" },
+			{ "name": "oeuf", "value": 2, "metric": " " },
+			{ "name": "comté", "value": 50, "metric": "g" },
+			{ "name": "sel et poivre", "value": 1, "metric": "" }
+		]
 	}
 ]

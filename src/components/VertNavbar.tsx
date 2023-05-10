@@ -29,7 +29,7 @@ const items = [
 	{
 		icon: <Home />,
 		text: 'Home',
-		path: '/'
+		path: '/recipe'
 	}
 ];
 

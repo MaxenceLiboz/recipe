@@ -1,15 +1,26 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Modal, Box, Typography, Grid, useMediaQuery, useTheme } from '@mui/material';
 import IngredientsList from './IngredientsList';
 import RecipeList from './RecipeList';
+import { INutrionalValue, IRecipe } from '../pages/Home';
 
-const RecipeModal = (props: any) => {
+const RecipeModal = (props: { recipe: IRecipe | null; onClose: any; nutritionalValue: INutrionalValue | null }) => {
 	const theme = useTheme();
 	const smScreen = useMediaQuery(theme.breakpoints.down('sm'));
 	const mdScreen = useMediaQuery(theme.breakpoints.up('md'));
 
-	const { recipe, onClose } = props;
+	const { recipe, onClose, nutritionalValue } = props;
+
+	const [show, setShow] = useState(false);
 	console.log('MEAL: ', recipe);
+
+	useEffect(() => {
+		if (recipe && nutritionalValue) setShow(true);
+		else setShow(false);
+	}, [recipe, nutritionalValue]);
+
+	console.log(show);
+	if (!show) return <></>;
 	return (
 		<Modal open={recipe !== null} onClose={onClose}>
 			<Box
@@ -47,9 +58,13 @@ const RecipeModal = (props: any) => {
 							<b>Type:</b> {recipe?.type}
 						</Typography>
 						<Typography variant="body2" color="text.primary" style={{ padding: '.5em 0' }} component="div">
-							<b>Description:</b> {recipe?.description}
+							{/* <b>Description:</b> {recipe?.description} */}
 						</Typography>
-						<IngredientsList ingredients={recipe?.ingredients} />
+						{recipe && nutritionalValue ? (
+							<IngredientsList ingredients={recipe?.ingredients} nutritionalValue={nutritionalValue} />
+						) : (
+							<></>
+						)}
 					</Grid>
 					<Grid item container direction={'column'} xs={12} md={5}>
 						<RecipeList recipeList={recipe?.recipe} />
